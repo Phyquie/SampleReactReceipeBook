@@ -1,0 +1,39 @@
+/* src/styles.css */
+.card {
+    border-radius: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.2);
+  }
+  
+  .card-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .form-container {
+    position: sticky;
+    top: 2em;
+    
+  }
+
+
+
+
+  body {
+    background-image: url('—Pngtree—yellow watercolor banana fruit background_1336393.png');
+    background-size: cover;  /* Ensures the image covers the whole background */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  /* Makes the background image fixed when scrolling */
+  }
+  
+  .container {
+   
+    padding: 2em;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Adds a subtle shadow for depth */
+  }
+  
